@@ -22,6 +22,9 @@ const app= new Vue(
                 if(this.counter<0){
                     this.counter=this.foto.length -1;
                 }
+            },
+            cambiopallino(index){
+                this.counter=index;
             }
         }
     }

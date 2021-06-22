@@ -21,6 +21,10 @@
     position: relative;
 }
 
+.slider-wrapper .back,.next{
+    font-size: 40px;
+}
+
 .slider-wrapper .immagini{
     height: 100%;
     width: 100%;

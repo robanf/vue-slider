@@ -28,10 +28,8 @@
         </div>
         <!-- nav bar -->
         <div class="nav">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
+
+            <i :class="(index==counter) ? 'active' : '' " class="fas fa-circle" v-for="(item, index) in foto" @click="cambiopallino(index)"></i>
         </div>
 
     </div>
