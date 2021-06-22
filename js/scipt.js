@@ -8,7 +8,8 @@ const app= new Vue(
                 "img/img2.jpg",
                 "img/img3.jpg",
                 "img/img4.jpg"
-            ]
+            ],
+           
         },
         methods:{
             nextfoto(){
@@ -25,7 +26,14 @@ const app= new Vue(
             },
             cambiopallino(index){
                 this.counter=index;
-            }
+            },
+          /*   timer(){
+                    var time=setInterval(myfuncion(){
+                        this.counter++
+                    },3000);
+
+
+            } */
         }
     }
 );
