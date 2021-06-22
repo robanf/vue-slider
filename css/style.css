@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .slider-wrapper .immagini{
@@ -28,4 +29,23 @@
 .slider-wrapper .immagini img{
     height: 100%;
     width: 100%;
+}
+
+.nav{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+
+.nav i{
+    margin: 0 5px;
+    filter: invert();
+}
+
+.nav > i.active{
+    filter: none;
+    color: royalblue;
 }

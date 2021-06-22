@@ -14,17 +14,24 @@
 
         <div class="slider-wrapper">
             <!-- freccia sx -->
-            <div class="back">
+            <div class="back" @click="prevfoto">
                 <i class="fas fa-arrow-left"></i>
             </div>
             <!-- immagini -->
             <div class="immagini">
-                <img src="img/img (1).jpg" alt="">
+                <img :src="foto[counter]" alt="">
             </div>
             <!-- freccia dx -->
-            <div class="next">
+            <div class="next" @click="nextfoto">
                 <i class="fas fa-arrow-right"></i>
             </div>
+        </div>
+        <!-- nav bar -->
+        <div class="nav">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
         </div>
 
     </div>
